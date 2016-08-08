@@ -1,0 +1,35 @@
+/* CSS de *.php */
+
+body{
+  margin: 0px;
+}
+
+ul{
+  padding: 0px;
+  margin: 0px;
+  margin-top: 15px;
+
+  list-style-type: none;
+  float: right;
+}
+
+li{
+  margin-left: 12px;
+  margin-right: 12px;
+  display: inline-block;
+}
+
+ul li a{
+  display: block;
+  color: #EEEEEE;
+  text-decoration:none;
+  text-align:center;
+
+  font-family: AILERON-SEMIBOLD;
+  font-size: 22px;
+}
+
+ul li a:hover{
+  transition: 0.4s;
+  color: #303841;
+}

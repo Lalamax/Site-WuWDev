@@ -1,0 +1,297 @@
+/* CSS de index.php */
+
+header{
+  width: auto;
+  height: 60px;
+  margin: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #2ecc71;
+  display: block;
+}
+
+footer{
+  width: auto;
+  height: 60px;
+
+  background-color: #3A4750;
+
+  margin: 0px;
+  padding: 5px 20px;
+  display: block;
+}
+
+.header__logo{
+  margin: 0px;
+  float: left;
+}
+
+.img__cmd{
+  background-image: url("../images/header-background.jpg");
+  background-size: cover;
+  width: auto;
+  height: 260px;
+
+
+  text-align: center;
+  padding-top: 30.5px;
+  padding-bottom: 20.5px;
+}
+
+.text__title{
+  font-size: 32px;
+  font-family: AILERON-SEMIBOLD;
+
+  color: #EEEEEE;
+  margin: 0px;
+  margin-top: 40px;
+}
+
+.text__subtitle{
+  font-size: 28px;
+  font-family: AILERON-SEMIBOLD;
+
+  color: #EEEEEE;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.button_command{
+  width: 220px;
+  height: 45px;
+
+  margin: 0px;
+  padding: 5px 5px;
+
+  background-color: #2ecc71;
+
+  font-size: 24px;
+  font-family: AILERON-LIGHT;
+  color: #EEEEEE;
+
+  border: none;
+  border-radius: 50px;
+}
+.button_command:hover{
+  background-color: #248957;
+  transition: 0.4s;
+}
+
+.middle__page{
+  background-color: #EEEEEE;
+
+  margin: 0px;
+  padding: 20px 30px;
+
+  width: auto;
+  height: 500px;
+
+  text-align: center;
+}
+
+.bloc__team{
+  width: auto;
+  height: 800px;
+
+  background-color: #2ecc71;
+
+  color: #EEEEEE;
+  font-family: AILERON-REGULAR;
+  font-size: 18px;
+
+  margin: 0px;
+  padding: 20px 20px;
+}
+
+.title__team{
+  font-size: 28px;
+  font-family: AILERON-BOLD;
+
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.subtitle__team{
+  font-size: 24px
+  font-family: AILERON-BOLD;
+
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.team__fondateur{
+  display: flex;
+  justify-content: space-around;
+}
+
+.team__developper{
+  display: flex;
+  justify-content: space-around;
+}
+
+.img__team{
+  width: 92px;
+  height: 92px;
+
+  border-radius: 50%;
+  border: none;
+}
+.img__team:hover{
+  box-shadow: 1px 1px 10px #000000;
+}
+
+.description__title{
+  font-size: 28px;
+  font-family: AILERON-BOLD;
+
+  color: #303841;
+  margin: 0px;
+}
+
+.wuwdev__description{
+  font-size: 20px;
+  font-family: AILERON-LIGHT;
+
+  color: #303841;
+  margin: 0px;
+  margin-top: 12px;
+  text-decoration: none;
+}
+
+.wuwdev__news{
+  width: auto;
+  height: 24px;
+
+  background-color: #2ecc71;
+  margin: 0px;
+  padding: 0px 8px;
+}
+
+.text__news{
+  color: #303841;
+  font-size: 16px;
+  font-family: AILERON-LIGHT;
+}
+
+.contact__us{
+  text-align: center;
+
+  width: auto;
+  height: 500px;
+
+  margin: 0px;
+  padding: 20px 20px;
+
+  background-color: #EEEEEE;
+}
+
+.title__contactus{
+  font-size: 28px;
+  font-family: AILERON-BOLD;
+
+  margin: 0px;
+  margin-bottom: 5px;
+  color: #303841;
+}
+
+.subtitle__contactus{
+  font-size: 24px;
+  font-family: AILERON-BOLD;
+
+  margin: 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #303841;
+}
+
+.textarea__contactus1{
+  width: 280px;
+  height: 40px;
+
+  color: #3A4750;
+  font-family: AILERON-LIGHT;
+  font-size: 18px;
+
+  margin: 10px 10px;
+  padding: 4px 8px;
+
+  border: none;
+  border-radius: 2px;
+
+  background-color: #F1F8FD;
+}
+.textarea__contactus1:focus{
+  border: solid #000000 2px;
+  transition: 0.6s;
+}
+
+.textarea__message__contactus{
+  width: 600px;
+  height: 140px;
+
+  color: #3A4750;
+  font-family: AILERON-LIGHT;
+  font-size: 20px;
+
+  margin: 0px;
+  margin-bottom: 40px;
+  padding: 5px 8px;
+
+  border: none;
+  border-radius: 2px;
+
+  background-color: #F1F8FD;
+}
+.textarea__message__contactus:focus{
+  border: solid #000000 2px;
+  transition: 0.6s;
+}
+
+.submit__contactus{
+  width: 425px;
+  height: 45px;
+
+  border: none;
+  border-radius: 50px;
+
+  background-color: #3A4750;
+  color: #EEEEEE;
+
+  font-family: AILERON-REGULAR;
+  font-size: 20px;
+  padding: 10px 10px;
+  margin: 0px;
+}
+.submit__contactus:hover{
+  background-color: #303841;
+  transition: 0.4s;
+}
+
+.footer__text{
+  color: #EEEEEE;
+  font-family: AILERON-THIN;
+  font-size: 18px;
+
+  float: left;
+
+  margin: 0px 0px;
+  margin-top: 10px;
+
+  padding: 0px 0px;
+}
+
+.social__network{
+  display: flex;
+  justify-content: space-around;
+  float: right;
+}
+
+.footer__sn{
+  margin-left: 8px;
+}
+
+.footer__sn:hover{
+  transform: rotate(360deg);
+  transition: 0.6s;
+}
